@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#planyour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 80vw;
+    background-color: rgb(241, 236, 236);
+    margin-left: 10vw;
+    border-radius: 20px;
+
+
+}
+#planyour h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#guaranteed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 80vw;
+    /* background-color: rgb(198, 11, 11); */
+    margin-left: 10vw;
+    border-radius: 20px;
+}
+
+#guaranteed h1{
+    font-family: 'Aguafina Script', cursive;
+    font-size: 30px;
+    letter-spacing: 0.3rem; 
+    font: bold;
+
+    }
+
+#loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 35vh;
+    width: 40vw;
+    background-color: rgb(252, 247, 247);
+    margin-left: 30%;
+    border-radius: 20px;
+    color: black;
+}
+
+#loginform h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: black;
+}
+
+#loginform label {
+    color: black;
+}
+
+#loginform button{
+    color: black;
+}
+
+#notaccount{
+    height: 5vh;
+    width: 50%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

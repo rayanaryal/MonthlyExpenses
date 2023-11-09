@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#back{
+    background-color:black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    /* border-bottom: 1px solid white; */
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#calculation, #chart, #add, #empty {
+    height: 42.50vh;
+    width: 50%;
+}
+
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#calculation{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#chart img {
+    height:100%;
+    width: 100%;
+    background-position: center;
+}
+
+#add{
+    background-color: rgb(38, 12, 12);
+    color: black;
+}
+
+#addnew{
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  8vh 15vw 8vh 15vw;
+    background-color: #88d12e;
+}
+
+#credit{
+    height: 35vh;
+    width: 25vw;
+    background-color: rgb(83, 83, 67);
+    z-index: 16;
+    text-align: center;
+    justify-content: center;
+}
+
+#debit {
+    height: 35vh;
+    width: 25vw;
+    background-color: blue;
+    z-index: 16;
+    text-align: center;
+    justify-content: center;
+}
+
+#paidtoday, #expenseoftoday {
+    font-size: 50px;
+    color: white;
+    background: none;
+    /* border: 1px solid white; */
+    padding: 2rem;
+    margin-top: 1rem;
+    font: 800;
+    cursor: pointer;
+
+}
+
+#addnew h1{
+    margin-top: 0.5rem;
+
+}
+
+#earning, #expense, #saved {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding: 1rem;
+}
+
+#earningside, #expenseside, #savedside {
+    font-size: 1.8rem;
+    padding-left: 1.8rem;
+    /* background-color: #fff; */
+    margin-left: 2rem;
+}
+
+#savedside {
+    padding-left: 0.2rem;
+
+}
+
